@@ -10,8 +10,8 @@ while(user != n):
     user = int(input("Guess the number between 1 to 100: "))
 
     if(user > n):
-        print("Too large")
+        print("Lower number please!")
     elif(user < n):
-        print("Too small")
-        
-print(f"You guessed the number {n} in {no_of_guess} attempts") 
+        print("Higher number please!")
+
+print(f"Congrats! You guessed the number {n} in {no_of_guess} attempts") 
